@@ -87,7 +87,7 @@ h3 {
 .description {
     font-size: 1rem;
     color: var(--text-muted);
-    max-width: 700px;
+    max-width: 900px;
     margin: 1.5rem 0;
     line-height: 1.7;
 }
