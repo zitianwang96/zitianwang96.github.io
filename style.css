@@ -254,6 +254,12 @@ main {
     font-size: 1.1rem;
 }
 
+.intro-actions {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: nowrap;
+}
+
 .btn-primary {
     display: inline-block;
     background-color: var(--accent-color);
@@ -421,7 +427,7 @@ footer {
     
     .intro-wrapper {
         flex-direction: column-reverse;
-        text-align: center;
+        text-align: left;
         gap: 2rem;
     }
 
@@ -437,5 +443,16 @@ footer {
     .intro-section {
         min-height: auto;
         padding-top: 4rem;
+    }
+
+    .intro-actions {
+        gap: 0.5rem;
+    }
+    
+    .intro-actions .btn-primary {
+        padding: 0.5rem 0.4rem;
+        font-size: 0.75rem;
+        flex: 1;
+        text-align: center;
     }
 }
